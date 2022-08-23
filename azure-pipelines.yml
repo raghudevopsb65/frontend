@@ -4,7 +4,7 @@ trigger:
 pool: D65
 
 variables:
-  COMPONENT: payment
+  COMPONENT: frontend
 
 
 resources:
@@ -15,5 +15,5 @@ resources:
       endpoint: raghudevopsb65
 
 stages:
-- template: python.yml@templates
+- template: nginx.yml@templates
 
