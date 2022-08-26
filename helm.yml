@@ -9,4 +9,6 @@ ingress:
 configMap:
   enabled: false
 
+externalSecret:
+  enabled: false
 
