@@ -12,3 +12,7 @@ configMap:
 externalSecret:
   enabled: false
 
+hpa:
+  min: 2
+  max: 10
+  cpuAvg: 80
