@@ -27,7 +27,7 @@ resources:
 
 health:
   endpoint: /nginx_status
-  port: 8080
+  port: 80
   readiness:
     periodSeconds: 10
     initialDelaySeconds: 10
